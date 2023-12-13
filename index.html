@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Планировщик задач</title>
+    <style>
+        /* Здесь вы можете добавить стили по желанию */
+    </style>
+
+</head>
+<body>
+    <div>
+        <h1>Добавить задачу</h1>
+        <input type="text" id="taskInput" placeholder="Введите задачу">
+        <button onclick="addTask()">Добавить в список</button>
+
+        <h2>Список задач</h2>
+        <ul id="taskList">
+            <!-- Здесь будут отображаться задачи -->
+        </ul>
+
+        <button onclick="clearList()" id="clearButton" disabled>Очистить список</button>
+    </div>
+    <script src="/index.js"></script>
+</body>
+</html>
